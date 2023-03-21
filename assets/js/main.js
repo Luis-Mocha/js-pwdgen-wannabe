@@ -1,3 +1,8 @@
+// Tooltips
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
 const formName = document.querySelector('#floatingName')
 const formSurname = document.querySelector('#floatingSurname')
 const formColor = document.querySelector('#floatingColor')
