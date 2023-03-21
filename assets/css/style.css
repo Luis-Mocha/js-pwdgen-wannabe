@@ -4,3 +4,11 @@
         width: 50%;
     }
 }
+
+#new-password {
+    border-color: green;
+}
+
+#reset-button {
+    font-size: 13px;
+}
